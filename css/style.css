@@ -244,6 +244,18 @@ nav ul {
     transition: all .5s;
 }
 
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  nav ul {
+    background: lightgray !important;
+    font-weight: 600 !important;
+  }
+  .designation{
+    font-size: 35px;
+    font-weight: 400;
+  }
+}
+
 nav li {
     display: inline-block;
     margin: 10px;
@@ -812,7 +824,8 @@ fieldset {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center
+    align-items: center;
+    overflow-x: auto;
 }
 .front-end{
     display: flex;
