@@ -509,7 +509,8 @@ a.active {
     overflow: hidden;
     display: block;
     margin-bottom: 0px;
-        border: 1px solid lightgray;
+    border: 1px solid lightgray;
+    width: 50%;
 }
 
 .portfolio_item .portfolio_item_hover {
